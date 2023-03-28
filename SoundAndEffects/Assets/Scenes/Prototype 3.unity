@@ -228,6 +228,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b186f9485a0828b468f98fe846ae1a68, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b186f9485a0828b468f98fe846ae1a68, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -502,6 +506,7 @@ MonoBehaviour:
   jumpForce: 10
   gravityModifier: 1
   isOnGround: 1
+  gameOver: 0
 --- !u!65 &1014991173
 BoxCollider:
   m_ObjectHideFlags: 0

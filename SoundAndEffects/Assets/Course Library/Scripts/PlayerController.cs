@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     public float gravityModifier;
     public bool isOnGround = true;
     private float speed = 30;
-    private bool gameOver = false;
+    public bool gameOver = false;
 
 
     // Start is called before the first frame update
